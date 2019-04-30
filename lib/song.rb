@@ -13,9 +13,9 @@ def initialize
 end
 
 
-def count
-  @@count
-end
+# def count
+#   @@count
+# end
 
 # def artists
 #   arr = []

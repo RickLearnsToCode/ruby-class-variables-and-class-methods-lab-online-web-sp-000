@@ -32,8 +32,9 @@ def self.artists
  def self.genres
    arr = []
    @@genres.map do |genre|
-      arr << artist unless arr.include?(genre)
+      arr << genre unless arr.include?(genre)
     end
+    arr
   end
 
   def self.genre_count

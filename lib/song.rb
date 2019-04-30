@@ -42,3 +42,5 @@ def artists
     end
     hsh
   end
+  
+end

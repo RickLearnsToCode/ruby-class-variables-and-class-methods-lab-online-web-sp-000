@@ -21,21 +21,21 @@ def self.count
   @@count
 end
 
-def artists
+def self.artists
   arr = []
   @@artists.map do |artist|
      arr << artist unless arr.include?(artist)
    end
  end
 
- def genres
+ def self.genres
    arr = []
    @@genres.map do |genre|
       arr << artist unless arr.include?(genre)
     end
   end
 
-  def genre_count
+  def self.genre_count
     hsh = {}
     @@genres.each do |genre|
       if hsh[genre] == nil

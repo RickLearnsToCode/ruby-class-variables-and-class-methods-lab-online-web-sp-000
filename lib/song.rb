@@ -49,4 +49,16 @@ def self.artists
     hsh
   end
 
+  def self.artist_count
+    hsh = {}
+    @@artists.each do |artist|
+      if hsh[artist] == nil
+        hsh[artist] = 1
+      else
+        hsh[artist] += 1
+      end
+    end
+    hsh
+  end
+
 end

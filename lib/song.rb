@@ -24,12 +24,12 @@ def artists
    end
  end
 
- def genres
-   arr = []
-   @@genres.map do |genre|
-      arr << artist unless arr.include?(genre)
-    end
-  end
+ # def genres
+ #   arr = []
+ #   @@genres.map do |genre|
+ #      arr << artist unless arr.include?(genre)
+ #    end
+ #  end
 
   # def genre_count
   #   hsh = {}

@@ -17,12 +17,12 @@ def count
   @@count
 end
 
-def artists
-  arr = []
-  @@artists.map do |artist|
-     arr << artist unless arr.include?(artist)
-   end
- end
+# def artists
+#   arr = []
+#   @@artists.map do |artist|
+#      arr << artist unless arr.include?(artist)
+#    end
+#  end
 
  # def genres
  #   arr = []

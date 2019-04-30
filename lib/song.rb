@@ -31,16 +31,16 @@ def artists
     end
   end
 
-  def genre_count
-    hsh = {}
-    @@genres.each do |genre|
-      if hsh[genre] == nil
-        hsh[genre] = 1
-      else
-        hsh[genre] += 1
-      end
-    end
-    hsh
-  end
+  # def genre_count
+  #   hsh = {}
+  #   @@genres.each do |genre|
+  #     if hsh[genre] == nil
+  #       hsh[genre] = 1
+  #     else
+  #       hsh[genre] += 1
+  #     end
+  #   end
+  #   hsh
+  # end
 
 end

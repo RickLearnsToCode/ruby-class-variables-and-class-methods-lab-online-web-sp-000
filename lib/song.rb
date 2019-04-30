@@ -26,6 +26,7 @@ def self.artists
   @@artists.map do |artist|
      arr << artist unless arr.include?(artist)
    end
+   arr
  end
 
  def self.genres
